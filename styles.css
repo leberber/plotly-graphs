@@ -1,0 +1,49 @@
+:root {
+    --barGap: 7px;
+    --barHeihgt:22px
+}
+
+.barChart{
+    border: 3px solid rgb(57, 49, 49);
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.chart-title{
+    font-weight: 18px;
+    font-weight: bold;
+    color: rgb(169, 163, 163);
+    text-align: center;
+    
+}
+
+.mantine-Progress-root{
+    background-color: transparent;
+}
+
+.barChart{
+    width: fit-content;
+
+}
+
+
+.bars{
+    margin: var(--barGap);
+    height:  var(--barHeihgt);
+}
+.bars-div{
+    margin-left: -15px;
+}
+
+
+
+.bar-labels{
+    text-align: right;
+    color: rgb(153, 149, 149);
+    line-height: calc(var(--barGap) + var(--barHeihgt));
+}
+.bar-text{
+    color: rgb(153, 149, 149);
+    line-height: calc(var(--barGap) + var(--barHeihgt));
+   font-size: 12px;
+}
